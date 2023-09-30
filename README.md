@@ -1,5 +1,5 @@
 # Кибердед - ЛЭТИшный Чат-Бот #
-![ded working](https://img.shields.io/badge/ded-working-brightgreen) ![python](https://img.shields.io/badge/python-%3E%3D3.8-blue) ![nodejs](https://img.shields.io/badge/nodejs-%3E%3D12.0-blue)
+![ded working](https://img.shields.io/badge/ded-working-brightgreen) ![python](https://img.shields.io/badge/python-%3E%3D3.8-blue)
 
 ### Кибердед [ВК](https://vk.com/kiberded_bot) | [ТГ](https://t.me/kiberded_leti_bot)
 
