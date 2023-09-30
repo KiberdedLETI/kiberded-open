@@ -1,0 +1,16 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Орел или решка?",
+                "callback_data": "t:action,c:heads_or_tails_toss"
+            }
+        ],
+        [
+            {
+                "text": "Камень-ножницы-бумага с ботом",
+                "callback_data": "t:action,c:start_classical_RPC"
+            }
+        ]
+    ]
+}

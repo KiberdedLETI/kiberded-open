@@ -1,0 +1,16 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Бросить ещё раз",
+                "callback_data": "t:action,c:heads_or_tails_toss"
+            }
+        ],
+        [
+            {
+                "text": "Вернуться в мини-игры",
+                "callback_data": "t:action,c:minigames"
+            }
+        ]
+    ]
+}

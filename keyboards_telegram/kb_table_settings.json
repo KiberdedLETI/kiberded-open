@@ -1,0 +1,28 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Тип рассылки",
+                "callback_data": "t:action,c:set_tables_mode"
+            }
+        ],
+        [
+            {
+                "text": "Время рассылки",
+                "callback_data": "t:action,c:set_tables_time"
+            }
+        ],
+        [
+            {
+                "text": "Отписаться",
+                "callback_data": "t:action,c:table_unsubscribe"
+            }
+        ],
+        [
+            {
+                "text": "Назад",
+                "callback_data": "t:navigation,p:other"
+            }
+        ]
+    ]
+}

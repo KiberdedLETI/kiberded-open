@@ -1,0 +1,70 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Понедельник (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Monday (even)"
+            },
+            {
+                "text": "Понедельник (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Monday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Вторник (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Tuesday (even)"
+            },
+            {
+                "text": "Вторник (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Tuesday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Среда (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Wednesday (even)"
+            },
+            {
+                "text": "Среда (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Wednesday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Четверг (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Thursday (even)"
+            },
+            {
+                "text": "Четверг (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Thursday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Пятница (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Friday (even)"
+            },
+            {
+                "text": "Пятница (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Friday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Суббота (чёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Saturday (even)"
+            },
+            {
+                "text": "Суббота (нечёт)",
+                "callback_data": "t:action,c:table_weekday,wd:Saturday (odd)"
+            }
+        ],
+        [
+            {
+                "text": "Назад",
+                "callback_data": "t:action,c:table_back"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Сайт универа",
+                "url": "https://etu.ru/"
+            }
+        ],
+        [
+            {
+                "text": "Личный кабинет",
+                "url": "https://lk.etu.ru/"
+            },
+            {
+                "text": "Мудл",
+                "url": "https://vec.etu.ru/"
+            }
+        ],
+        [
+            {
+                "text": "Библиотека ЛЭТИ",
+                "url": "http://library.etu.ru/"
+            },
+            {
+                "text": "Поиск научной лит-ры",
+                "url": "https://t.me/science_nexus_bot"
+            }
+        ]
+    ]
+}

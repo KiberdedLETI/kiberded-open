@@ -1,0 +1,16 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Календарь на сегодня",
+                "callback_data": "t:action,c:calendar_today"
+            }
+        ],
+        [
+            {
+                "text": "Календарь на завтра",
+                "callback_data": "t:action,c:calendar_tomorrow"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Календарь",
+                "callback_data": "t:action,c:t_mode_set,mode:calendar"
+            }
+        ],
+        [
+            {
+                "text": "Ежедневно",
+                "callback_data": "t:action,c:t_mode_set,mode:daily"
+            }
+        ],
+        [
+            {
+                "text": "Еженедельно",
+                "callback_data": "t:action,c:t_mode_set,mode:weekly"
+            }
+        ],
+        [
+            {
+                "text": "Оба",
+                "callback_data": "t:action,c:t_mode_set,mode:both"
+            }
+        ],
+        [
+            {
+                "text": "Назад",
+                "callback_data": "t:navigation,p:table_settings"
+            }
+        ]
+    ]
+}

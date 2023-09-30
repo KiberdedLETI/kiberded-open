@@ -1,0 +1,14 @@
+# dependencies: []
+# !!!!!!!!! THIS SHIT NEEDS TO БЫТЬ СКОПИРОВАНА В /lib/systemd/system/
+
+[Unit]
+Description=Телеграмный дед
+After=network-online.target
+
+[Service]
+Restart=always
+WorkingDirectory=/root/kiberded
+ExecStart=/usr/bin/env python3.8 /root/kiberded/telegram_bot.py
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+# dependencies: []
+# !!!!!!!!! THIS SHIT NEEDS TO БЫТЬ СКОПИРОВАНА В /lib/systemd/system/
+
+[Unit]
+Description=Планировочный дед
+After=network-online.target
+
+[Service]
+Restart=always
+WorkingDirectory=/root/kiberded
+ExecStart=/usr/bin/env python3 /root/kiberded/scheduler.py
+
+[Install]
+WantedBy=multi-user.target

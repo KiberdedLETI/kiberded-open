@@ -1,0 +1,14 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Расписание экзаменов",
+                "callback_data": "t:action,c:table_exam"
+            },
+            {
+                "text": "Расписание экзаменов (доп)",
+                "callback_data": "t:action,c:table_exam_2"
+            }
+        ]
+    ]
+}

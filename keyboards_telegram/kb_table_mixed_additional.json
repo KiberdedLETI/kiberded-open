@@ -1,0 +1,50 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Экзамены",
+                "callback_data": "t:action,c:table_exam"
+            },
+            {
+                "text": "Экзамены (доп)",
+                "callback_data": "t:action,c:table_exam_2"
+            }
+        ],
+        [
+            {
+                "text": "Сегодня",
+                "callback_data": "t:action,c:table_today"
+            },
+            {
+                "text": "Сегодня (доп)",
+                "callback_data": "t:action,c:table_today_2"
+            }
+        ],
+        [
+            {
+                "text": "Завтра",
+                "callback_data": "t:action,c:table_tomorrow"
+            },
+            {
+                "text": "Завтра (доп)",
+                "callback_data": "t:action,c:table_tomorrow_2"
+            }
+        ],
+        [
+            {
+                "text": "Другие дни",
+                "callback_data": "t:navigation,p:table_other"
+            },
+            {
+                "text": "Другие дни (доп)",
+                "callback_data": "t:navigation,p:table_other_2"
+            }
+        ],
+        [
+            {
+                "text": "Расписание преподавателей",
+                "callback_data": "t:navigation,p:table_prepods"
+            }
+        ]
+    ]
+}

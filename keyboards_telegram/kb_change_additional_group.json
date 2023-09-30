@@ -1,0 +1,10 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Изменить дополнительную группу",
+                "callback_data": "t:action,c:change_additional_group"
+            }
+        ]
+    ]
+}

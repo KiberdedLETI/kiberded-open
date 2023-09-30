@@ -1,0 +1,40 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Случайный анекдот",
+                "callback_data": "t:action,c:random_anecdote"
+            },
+            {
+                "text": "Случайный тост",
+                "callback_data": "t:action,c:random_toast"
+            }
+        ],
+        [
+            {
+                "text": "Подписаться на Анекдот",
+                "callback_data": "t:action,c:anecdote_subscribe"
+            },
+            {
+                "text": "Отписаться от Анекдота",
+                "callback_data": "t:action,c:anecdote_unsubscribe"
+            }
+        ],
+        [
+            {
+                "text": "Рассылка Расписания",
+                "callback_data": "t:action,c:table_subscribe"
+            }
+        ],
+        [
+            {
+                "text": "Настройки",
+                "callback_data": "t:navigation,p:settings"
+            },
+            {
+                "text": "Поддержать проект",
+                "callback_data": "t:navigation,p:donate"
+            }
+        ]
+    ]
+}

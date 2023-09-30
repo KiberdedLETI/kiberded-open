@@ -1,0 +1,28 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Поиск по фамилии",
+                "callback_data": "t:action,c:search_prepod_text"
+            }
+        ],
+        [
+            {
+                "text": "Выбор кафедры преподавателя",
+                "callback_data": "t:action,c:search_department,lid:0"
+            }
+        ],
+        [
+            {
+                "text": "История поиска",
+                "callback_data": "t:action,c:prepods_history"
+            }
+        ],
+        [
+            {
+                "text": "Расписание группы",
+                "callback_data": "t:action,c:table_back"
+            }
+        ]
+    ]
+}
