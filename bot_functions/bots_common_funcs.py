@@ -55,7 +55,7 @@ def get_day(now_date=today):  #
     :return: дата в формате 'День + (чет/нечет)'
     """
 
-    weeknumfix = 0  # Поправочка на случай несовпадения четности с календарной
+    weeknumfix = 1  # Поправочка на случай несовпадения четности с календарной
     weekday = days[0][now_date.weekday()]
     parity = days[1][((weeknumfix + now_date.isocalendar()[1]) % 2)]
     return weekday + parity
@@ -249,9 +249,9 @@ def get_exam_notification(group, day=date.today()) -> str:
                             exam_msg += f'\nАудитория {consult[4]}'
 
                 if exam_msg:
-                    if day == date.today():
+                    if exam_day == date.today():
                         exam_msg = f"Сегодня {exam_msg}\n"
-                    elif day == date.today() + timedelta(days=1):
+                    elif exam_day == date.today() + timedelta(days=1):
                         exam_msg = f"Завтра {exam_msg}"
                     else:
                         exam_msg = f"{exam_day} {exam_msg}"
